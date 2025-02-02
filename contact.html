@@ -1,0 +1,84 @@
+<html>
+<head>
+    <style>
+        body{
+            max-width: 50%;
+            margin: auto; 
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .form-group {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .form-group div {
+            width: 48%;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        textarea {
+            resize: none;
+            height: 100px;
+        }
+
+        .submit-btn {
+            background-color:darkcyan;
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .submit-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Contact Us</h1>
+        <form method="post">
+            <div class="form-group">
+                <div>
+                    <label>First Name</label>
+                    <input type="text" placeholder="Enter first name">
+                </div>
+                <div>
+                    <label>Last Name</label>
+                    <input type="text" placeholder="Enter last name">
+                </div>
+            </div>
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email">
+
+            <label>Contact Number</label>
+            <input type="tel" placeholder="Enter your contact detail">
+
+            <label>Message</label>
+            <textarea placeholder="Enter your message"></textarea>
+
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

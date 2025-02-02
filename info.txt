@@ -1,0 +1,6 @@
+assignment 2
+create a page using following consept 
+	'welcome Nagpur' in center   all pages should s=display in one page using iframe concept
+	--------------------------------------
+	about Us	Tourist		Colleges 	Contact
+

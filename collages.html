@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <style type="text/css">
+        body {
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            height: 70%;
+            object-fit: cover;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            justify-content: center;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .card {
+            width: 100%;
+            height: 300px;
+            background-color: darkcyan;
+            border-radius: 6px;
+            overflow: hidden;
+            text-align: center;
+            color: white;
+        }
+
+        .card:hover {
+            transform: scale(1.02);
+            transition: all 200ms ease-in-out;
+        }
+
+        h2 {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="color: orange;">Top 5 Collages to get Addmission in Nagpur</h1>
+
+    <div class="container">
+        <div class="card">
+            <img src="images/collages/iit.png" alt="GaneshTekadi">
+            <h2>Indian Institute of technology</h2>
+        </div>
+        <div class="card">
+            <img src="images/collages/iim.png" alt="Dikshabhoomi">
+            <h2>Indian Institute of Management</h2>
+        </div>
+        <div class="card">
+            <img src="images/collages/vnit.png" alt="Dragon Palace">
+            <h2>Visvesvaraya National Institute of Technology</h2>
+        </div>
+        <div class="card">
+            <img src="images/collages/govcoleng.png" alt="Futala Lake">
+            <h2>Government Collage of Endineering</h2>
+        </div>
+        <div class="card">
+            <img src="images/collages/risoni.png" alt="Hajaratbaba">
+            <h2>G.S Risoni Collage of Engineering</h2>
+        </div>
+        
+    </div>
+</body>
+
+</html>
